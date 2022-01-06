@@ -147,6 +147,25 @@ input.textinput {
 	font-family: 'Roboto';
 }
 
+.group-error {
+	display: flex;
+	justify-content: center;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+	height: 50px;
+	width: 100%;
+	margin: 15px 0 15px 0;
+	box-sizing: border-box;
+}
+
+.text-error{
+	text-align: center;
+	color: #721c24;
+	font-size: 14px;
+	font-family: 'OpenSans-Light';
+	margin: auto;
+}
+
 @media (max-width: 1219px) {
 	.common-box {
 		width: 30%;
