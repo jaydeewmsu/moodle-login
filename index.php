@@ -10,7 +10,7 @@
 	<head>
 		<title>Digital Education | Login</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" type="image/png" href="wmsu-logo.png" />
+		<link rel="icon" type="image/png" href="ICS.png" />
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
 	</head>
 	<body>
@@ -18,7 +18,7 @@
 			<div class="center-table">
 				<div class="common-box">
 					<div class="box-image">
-						<img class="wmsu-image" src="wmsu-logo.png">
+						<img class="wmsu-image" src="ICS.png">
 						<div class="title">DIGITAL EDUCATION</div>
 					</div>
 					<?php if($_GET["errorcode"] == 3) { ?>
@@ -39,7 +39,7 @@
 							<button href="" id="login-btn">Continue</button>
 						</div>
 					</form>
-					<div class="group">
+					<div class="group forgot">
 						<a href="https://lms.wmsuics.tech/login/forgot_password.php/" id="forgot-password">Forgot Password?</a>
 					</div>
 				</div>

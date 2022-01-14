@@ -25,7 +25,7 @@ body, html {
 	margin: 0px auto;
 	padding: 0px;
 	font-family: 'Roboto';
-	background-image: url("login-background.png");
+	background-image: url("login.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -106,8 +106,9 @@ input.textinput {
 	display: inline-block;
 	padding: 16px 0px 16px 0px;
 	border-radius: 8px;
-	background: linear-gradient(30deg, rgb(177, 4, 0), rgb(229, 57, 53));
-	border: 1px solid #ff6f47;
+	/*background: linear-gradient(30deg, rgb(177, 4, 0), rgb(229, 57, 53));*/
+	background: linear-gradient(30deg, #062321, #146356);
+	border: none;
 	box-shadow: 0px 0px 2px #888888;
 	color: white;
 	font-size: 14px;
@@ -116,6 +117,14 @@ input.textinput {
 #login-btn:hover {
 	opacity: 0.9;
 	cursor: pointer;
+}
+
+#forgot-password{
+	color: #062321
+}
+
+#forgot-password:visited{
+	color: #062321;
 }
 
 #forgot-password:hover{
@@ -143,7 +152,8 @@ input.textinput {
 
 .title {
 	font-size: 18px;
-	color: #bc1511;
+	color: #062321;
+	/*color: #bc1511;*/
 	font-family: 'Roboto';
 }
 
