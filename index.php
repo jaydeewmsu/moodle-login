@@ -10,7 +10,7 @@
 	<head>
 		<title>Digital Education | Login</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" type="image/png" href="ICS.png" />
+		<link rel="icon" type="image/png" href="ICS-min.png" />
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
 	</head>
 	<body>
@@ -18,7 +18,7 @@
 			<div class="center-table">
 				<div class="common-box">
 					<div class="box-image">
-						<img class="wmsu-image" src="ICS.png">
+						<img class="wmsu-image" src="ICS-min.png">
 						<div class="title">DIGITAL EDUCATION</div>
 					</div>
 					<?php if($_GET["errorcode"] == 3) { ?>

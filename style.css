@@ -25,12 +25,19 @@ body, html {
 	margin: 0px auto;
 	padding: 0px;
 	font-family: 'Roboto';
-	background-image: url("login.png");
+	background-image: url("login-min.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: none;
 }
+
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
 
 input[type = text], input[type = password], input[type = number], input[type = date], input[type = email], input[type = tel] {
 	border: 1px solid #e8e8e8;
@@ -61,8 +68,9 @@ input.textinput {
 	font-family: 'Lato';
 	display: block;
 	padding: 12px;
-	width: 92.5%;
+	width: 100%;
 	position: relative;
+	overflow: hidden;
 	font-family: 'OpenSans-SemiBold';
 }
 
@@ -190,6 +198,6 @@ input.textinput {
 
 @media (max-width: 650px) {
 	.common-box {
-		width: 60%;
+		width: 80%;
 	}
 }
