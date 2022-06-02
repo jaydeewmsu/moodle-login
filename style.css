@@ -4,27 +4,12 @@
  * Developed By: Jaydee C. Ballaho and Jason A. Catadman
  */
 
-@font-face {
-	font-family: OpenSans-SemiBold;
-	src: url('OpenSans-SemiBold.ttf');
-}
-
-@font-face {
-	font-family: OpenSans-Light;
-	src: url('OpenSans-Light.ttf');
-}
-
-@font-face {
-	font-family: Roboto;
-	src: url('Roboto-Regular.ttf');
-}
-
 body, html {
 	width: 100%;
 	height: 100%;
 	margin: 0px auto;
 	padding: 0px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	background-image: url("login-background-reduced.png");
 	background-size: cover;
 	background-position: center;
@@ -49,11 +34,12 @@ label {
 	font-size: 14px;
 	float: left;
 	max-width: 100%;
-	font-family: 'OpenSans-SemiBold';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
 }
 
 a {
-	font-family: 'OpenSans-Light';
+	font-family: 'Roboto', sans-serif;
 	float: right;
 	font-size: 14px;
 }
@@ -71,7 +57,7 @@ input.textinput {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	font-family: 'OpenSans-SemiBold';
+	font-family: 'Roboto', sans-serif;
 }
 
 .table {
@@ -162,7 +148,8 @@ input.textinput {
 	font-size: 18px;
 	/*color: #062321;*/
 	color: #bc1511;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
 }
 
 .group-error {
@@ -180,7 +167,8 @@ input.textinput {
 	text-align: center;
 	color: #721c24;
 	font-size: 14px;
-	font-family: 'OpenSans-Light';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	margin: auto;
 }
 

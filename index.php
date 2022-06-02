@@ -9,9 +9,12 @@
 <html>
 	<head>
 		<title>Digital Education | Login</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" type="image/png" href="WMSU-LOGO-min.ico" />
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+		<link rel="icon" type="image/png" href="WMSU-LOGO-min.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
         <div class="table">
