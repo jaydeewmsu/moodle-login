@@ -29,7 +29,7 @@
 							<span class="text-error">Invalid username and password. Try again.</span>
 						</div>
 					<?php } ?>
-					<form action="http://58.71.15.11/login/index.php" method="post">
+					<form action="http://eclass.wmsu.edu.ph/login/index.php" method="post">
 						<div class="group">
 							<label>Email Address</label>
 							<input type="text" name="username" class="textinput" required placeholder="">
@@ -43,7 +43,11 @@
 						</div>
 					</form>
 					<div class="group forgot">
-						<a href="http://58.71.15.11/login/forgot_password.php/" id="forgot-password">Forgot Password?</a>
+						<a href="http://eclass.wmsu.edu.ph/login/forgot_password.php/" id="forgot-password">Forgot Password?</a>
+					</div>
+
+					<div class="group create-account">
+						<a href="http://eclass.wmsu.edu.ph/login/signup.php?" id="create-account">Create an Account</a>
 					</div>
 				</div>
 			</div>

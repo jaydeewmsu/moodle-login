@@ -113,7 +113,30 @@ input.textinput {
 	cursor: pointer;
 }
 
+#create-account{
+	float: left;
+	color: black;
+	text-decoration: none;
+}
+
+#create-account:active{
+	float: left;
+	color: black;
+}
+
+#create-account:visited{
+	color: black;
+}
+
+#create-account:hover{
+	opacity: 0.8;
+}
+
 #forgot-password{
+	color: rgb(177, 4, 0)
+}
+
+#forgot-password:active{
 	color: rgb(177, 4, 0)
 }
 
